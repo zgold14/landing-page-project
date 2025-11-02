@@ -1,0 +1,159 @@
+body {
+    font-family: "Alumni Sans";
+    background-color: #f9faf8;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 128px;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #f9faf8
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 128px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+h1 {
+    display: flex;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hero-subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.btn {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 24px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 2px solid #f9faf8;
+}
+
+.header-btn {
+    border-color: #1f2937;
+}
+
+.hero-img {
+    width: auto;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    flex: 1;
+}
+
+.info-section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.image-boxes {
+    display: flex;
+    gap: 40px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    padding: 20px 300px 0;
+    text-align: left;
+}
+
+.speaker {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0 300px 20px;
+    text-align: right;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    padding: 10px 50px;
+    border-radius: 5px;
+    justify-content: center;    
+    align-items: center;
+}
+
+ .call-text-section {
+    color: #f9faf8;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0;
+}
+
+
+
